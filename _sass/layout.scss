@@ -1,0 +1,122 @@
+.content {
+	background: #ffffff;
+	padding: 1px 0 0 0;
+	position: relative;
+}
+
+.content-dark {
+	background: #efefef;
+	padding: 1px 0 0 0;
+	position: relative;
+}
+
+.container, .text-container {
+	margin: 0 auto;
+	position: relative;
+	padding: 0 20px;
+}
+
+.text-container {
+	max-width: 750px;
+}
+
+.container {
+	max-width: 1140px;
+
+	&.max-container {
+		max-width: 100%;
+		padding: 0;
+	}
+}
+
+header {
+	color: #fff;
+	padding: 20px 0;
+	background: $brand-color;
+
+	a {
+		color: #fff;
+		text-decoration: none;
+		z-index: 1;
+		position: relative;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+
+	.company-name {
+		font-size: 1.7em;
+		line-height: 0;
+
+		a {
+			display: inline-block;
+		}
+
+		img {
+			display: block;
+			width: auto;
+		}
+	}
+}
+
+.hero-image{
+	max-width: 100%;
+	height: auto;
+	display: block;
+	border-radius: 2px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #EFEFEF;
+	padding: 20px 0 0 0;
+	position: relative;
+}
+
+.image{
+	max-width: 50%;
+	height: auto;
+	display: block;
+	border-radius: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #EFEFEF;
+	position: relative;
+}
+
+.small-image{
+	max-width: 20%;
+	height: auto;
+	display: block;
+	border-radius: 2px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #FFFFFF;
+	position: relative;
+}
+
+section {
+	padding: 100px 0;
+}
+
+section + section {
+	padding-top: 0;
+}
+
+.subtext {
+	margin-top: 10px;
+	text-align: center;
+}
+
+
+.cta {
+	margin: 60px 0;
+}
+
+.page {
+	margin-bottom: 0;
+	padding-bottom: 80px;
+}
+
+.center-text {
+	text-align: center;
+}

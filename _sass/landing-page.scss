@@ -1,0 +1,57 @@
+.hero {
+	color: #2b2b2b;
+	text-align: left;
+	background: #EFEFEF;
+	padding-top: 50px 0;
+
+	p {
+		color: #2B2B2B;
+	}
+}
+
+@media #{$desktop} {
+	.flex {
+		@include flexbox;
+		align-items: center;
+		flex-direction: row;
+
+		.text, .image {
+			-webkit-flex: 1;
+			flex: 1;
+			padding: 0 20px;
+		}
+	}
+
+	.content section:nth-child(even) .flex {
+		flex-direction: row-reverse;
+	}
+}
+
+.highlight-section {
+	background: #efefef;
+	color: #111111;
+	text-align: right;
+	margin: 0;
+	padding: 100px 0;
+
+	h2 {
+		margin-bottom: 50px;
+		font-weight: normal;
+	}
+}
+
+.highlight-section-left {
+	background: #ffffff;
+	color: #111111;
+	text-align: left;
+	margin: 0;
+	padding: 100px 0;
+}
+
+.playground {
+	text-align: left;
+	color: #111111;
+	background: #ffffff;
+	margin: 0;
+	padding: 100px 0;
+}

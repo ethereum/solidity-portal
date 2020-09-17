@@ -1,0 +1,104 @@
+---
+title: Solidity Language Portal
+description: All you need to know about Solidity in one place
+---
+<head>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400&family=Inter:wght@300;500;600;700;900&family=Work+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<section class="hero">
+	<div class="container flex">
+			<img src="{{ site.baseurl }}/images/SolGray.png" alt="Solidity Hero" class="hero-image"/>
+	</div>
+</section>
+
+<div class="content">
+	<section>
+		<div class="container flex">
+			<div class="text editable">
+				<h2>Solidity is a statically-typed curly-braces programming language designed for developing smart contracts that run on <a href="https://ethereum.org/en/">Ethereum</a>.</h2>
+				<div class="cta button alt"><a href="https://solidity.readthedocs.io/en/latest/installing-solidity.html">get started</a></div>
+			</div>
+			<img src="{{ site.baseurl }}/images/SolBlueGradient.png" alt="Solidity Logo" class="small-image"/>
+		</div>
+	</section>
+</div>
+
+<section class="highlight-section">
+	<div class="container flex">
+		<div class="text editable">
+			<h2><strong>Solidity is evolving rapidly.</strong></h2>
+			<p>As a relatively young language, Solidity is advancing at a rapid speed. We aim for a regular (non-breaking) release every 2-3 weeks, with approximately two breaking releases per year. You can follow the implementation status of new features in the <a href="https://github.com/ethereum/solidity/projects/43">Solidity Github project</a>. You can
+			see the upcoming changes for the next breaking release by switching from the default branch (`develop`) to the <a href="https://github.com/ethereum/solidity/tree/breaking">`breaking branch`</a>. You can actively shape Solidity by providing your input and participating in the <a href="https://solidity.readthedocs.io/en/latest/contributing.html">language design</a>.</p>
+		</div>
+	</div>
+</section>
+
+<div class="content-dark">
+	<section>
+		<div class="container flex">
+			<div class="text editable">
+				<h2><strong>Stay always up-to-date by following the <a href="https://solidity.ethereum.org">Solidity blog</a> and the <a href="https://twitter.com/solidity_lang">Solidity Twitter</a>.</strong></h2>
+				<p>Relevant recent news include:</p>
+				<ul>
+					<li><p>Solidity v0.7.0 is out! Check out <a href="https://solidity.readthedocs.io/en/latest/070-breaking-changes.html#how-to-update-your-code">this guide</a> on how to best update your code to Solidity v0.7.x.</li></p>
+					<li><p>The infamous Solidity Underhanded Contest is back. This year's task is to create a seaminly safe upgrade mechanism which contains backdoors. Submissions close on Oct 31. Check the <a href="https://underhanded.solidity.rocks">contest website</a> for all details!</li></p>
+					<li><p>Lastest from the blog: <a href="">Meet the Solidity team!</a> - short interviews with some of the core team members.</li></p>
+				</p>
+				<div class="text editable">
+		</div>
+	</section>
+</div>
+
+<section class="playground">
+	<div class="container flex">
+		<div class="text editable"><h2><strong>Try Solidity here.</strong></h2></div>
+	</div>
+	<div class="container flex" style="align-items: start;">
+		<textarea id="compilerInput" style="font-family: monospace; width: 50%;">// SPDX-License-Identifier: MIT
+pragma solidity ^0.7.0;
+contract MyContract {
+	function helloWorld() public pure returns (string memory) {
+		return "Hello, World!";
+	}
+}</textarea>
+		<div style="width: 50%;" class="cointainer">
+			<div class="cointainer flex">
+				<p><strong>Compiler Result</strong></p>
+			</div>
+			<div class="cointainer flex" style="flex-direction: column; align-items: start;">
+				<div><strong>Compiler version:</strong> <span id="compiler_version">Loading...</span></div>
+				<div id="compiler_errors"/>
+			</div>
+		</div>
+		<script src="{{ site.baseurl }}/compiler.js" language="JavaScript"></script>
+	</div>
+</section>
+
+<section class="highlight-section-left">
+	<div class="container flex">
+		<div class="text editable">
+			<h2><strong>New to Solidity? Getting started is easy.</strong></h2>
+		<p class="editable">As a beginner, you find great tutorials, resources and tools that help you get started building with Solidity on the <a href="https://ethereum.org/en/build/">ethereum.org</a> website.<br><br>Alternatively, you can learn the basics about blockchain, smart contracts and the Ethereum Virtual Machine (EVM) in the <a href="https://solidity.readthedocs.io/en/latest/introduction-to-smart-contracts.html">Solidity docs</a>.</p>
+	</div>
+</section>
+
+<div class="content-dark">
+	<section>
+		<div class="container flex">
+			<div class="text editable">
+				<h2><strong><a href="https://solidity.readthedocs.io/en/latest/contributing.html">Contribute</a> towards enhancing Solidity by sharing your opinion in the language design discussions!</strong></h2><br>
+				<p>We welcome Solidity power users, auditors, security experts and tooling developers to 
+					get involved and actively contribute to the Solidity language design process.</p>
+					<ul>
+						<li><p>Join the <a href="https://groups.google.com/g/solidity-users">solidity-users forum</a>, where existing properties of the language and proposals for new language features can be discussed.</p></li>
+						<li><p>Give input by completing (feature) feedback surveys which are regularly distributed via Twitter and the solidity-users forum.</p></li>
+						<li><p>Join the dedicated language design discussion calls, in which selected topics, issues or feature implementations are debated in detail.</p></li>
+						<li><p>Or share your thoughts and take part in design discussions directly via relevant <a href="https://github.com/ethereum/solidity/issues">Github issues</a>.</p></li>
+					</ul>
+				<p>For ad-hoc inquiries and questions you can reach out to the core team using the <a href="https://gitter.im/ethereum/solidity-dev">Solidity-dev Gitter channel</a>, a
+					dedicated chatroom for conversations around the Solidity compiler and language development.</p>
+			</div>
+		</div>
+	</section>
+</div>
