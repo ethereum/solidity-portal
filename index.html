@@ -4,6 +4,7 @@ description: All you need to know about Solidity in one place
 ---
 <head>
 <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400&family=Inter:wght@300;500;600;700;900&family=Work+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+<script src="ace.js" type="text/javascript" charset="utf-8"></script>
 </head>
 
 <section class="hero">
@@ -55,20 +56,22 @@ description: All you need to know about Solidity in one place
 		<div class="text editable"><h2><strong>Try Solidity here.</strong></h2></div>
 	</div>
 	<div class="container flex" style="align-items: start;">
-		<textarea id="compilerInput" style="font-family: monospace; width: 50%;">// SPDX-License-Identifier: MIT
+	    <div style="flex-direction: row; width: 50%; height: 30em;">
+			<div id="compilerInput" style="width: 100%; height: 100%; font-size: 14px;">// SPDX-License-Identifier: MIT
 pragma solidity ^0.7.0;
 contract MyContract {
 	function helloWorld() public pure returns (string memory) {
 		return "Hello, World!";
 	}
-}</textarea>
-		<div style="width: 50%;" class="cointainer">
+}</div>
+		</div>
+		<div style="width: 50%; margin-left: 2ex;" class="cointainer">
 			<div class="cointainer flex">
 				<p><strong>Compiler Result</strong></p>
 			</div>
 			<div class="cointainer flex" style="flex-direction: column; align-items: start;">
 				<div><strong>Compiler version:</strong> <span id="compiler_version">Loading...</span></div>
-				<div id="compiler_errors"/>
+				<div id="compiler_errors" style="width: 100%;"/>
 			</div>
 		</div>
 		<script src="{{ site.baseurl }}/compiler.js" language="JavaScript"></script>
