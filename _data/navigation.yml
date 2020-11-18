@@ -3,7 +3,7 @@
   new_window: true
   highlight: false
 - name: Docs
-  link: https://solidity.readthedocs.io/en/latest/
+  link: https://docs.soliditylang.org/en/latest/
   new_window: true
   highlight: false
 - name: Chat
@@ -15,6 +15,6 @@
   new_window: false
   highlight: false
 - name: Blog
-  link: https://solidity.ethereum.org/
+  link: https://blog.soliditylang.org
   new_window: true
   highlight: true
