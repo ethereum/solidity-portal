@@ -10,15 +10,17 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Solidity Language Portal
+description: The Solidity Language Portal is a one-stop-shop information portal for all things Solidity. It includes Solidity resources, like the documentation, static binaries, the Solidity blog, information on language design, contributing guidelines, Solidity Summits, hackathons and more.
 author:
-  name: Solidity team
+  name: Solidity Team
   email: solidity@ethereum.org
   twitter: solidity_lang
 social:
   name: Solidity
   links:
     - https://github.com/ethereum/solidity
+    - https://gitter.im/ethereum/solidity
+    - https://twitter.com/solidity_lang
 
 # -----
 # Build
