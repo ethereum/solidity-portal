@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: Solidity Language Portal
+title: Solidity Programming Language
 url: "https://soliditylang.org/"
 baseurl:
 google_analytics_key:
@@ -10,7 +10,7 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: The Solidity Language Portal is a one-stop-shop information portal for the Solidity programming language. It includes Solidity resources, like the documentation, static binaries, the Solidity blog, information on language design, contributing guidelines, Solidity Summits, hackathons and more.
+description: The Solidity language portal is a comprehensive information page for the Solidity programming language. It features documentation, binaries, blog, resources & more.
 author:
   name: Solidity Team
   email: solidity@ethereum.org
