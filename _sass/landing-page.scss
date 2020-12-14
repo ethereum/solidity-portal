@@ -40,6 +40,27 @@
 	}
 }
 
+.highlight-section-blue{
+	background: #002fa7;
+	color: #ffffff;
+	text-align: right;
+	margin: 0;
+	padding: 100px 0;
+
+	a {
+		color: #C4C4C4;
+		text-decoration: none;
+	}
+
+	a:hover {
+		text-decoration: underline;
+	}
+
+	p {
+		color: #ffffff;
+	}
+}
+
 .highlight-section-left {
 	background: #ffffff;
 	color: #111111;
