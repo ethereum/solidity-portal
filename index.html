@@ -5,6 +5,12 @@ description: Solidity is a statically-typed curly-braces programming language de
 <head>
 <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400&family=Inter:wght@300;500;600;700;900&family=Work+Sans:wght@300;400;700&display=swap" rel="stylesheet">
 <script src="ace.js" type="text/javascript" charset="utf-8"></script>
+<style>
+	.playground select option {
+    	background: #2B2B2B;
+    	color: #FFFFFF;
+  	}
+</style>
 </head>
 
 <section class="hero">
@@ -66,14 +72,13 @@ description: Solidity is a statically-typed curly-braces programming language de
 		<div class="text editable"><h2><strong>Try Solidity here.</strong></h2></div>
 	</div>
 	<div class="container flex" style="align-items: start;">
-	    <div style="flex-direction: row; width: 50%; height: 30em;">
-			<div id="compilerInput" style="width: 100%; height: 100%; font-size: 14px;">// SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
-contract MyContract {
-	function helloWorld() public pure returns (string memory) {
-		return "Hello, World!";
-	}
-}</div>
+		<div style="flex-direction: row; width: 50%; height: 30em;">
+			<select class="text_select" id="selectedContract" style="width: 50%; margin-bottom: 14px;">
+				<option id="helloWorld">Hello World!</option>
+				<option id="erc20">ERC20</option>
+				<option id="simpleAuction">Simple Auction</option>
+			</select>
+			<div id="compilerInput" style="width: 100%; height: 100%; font-size: 14px;"></div>
 		</div>
 		<div style="width: 50%; margin-left: 2ex;" class="cointainer">
 			<div class="cointainer flex">
