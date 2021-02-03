@@ -10,6 +10,10 @@
   link: https://gitter.im/ethereum/solidity
   new_window: true
   highlight: false
+- name: Forum
+  link: https://forum.soliditylang.org/
+  new_window: true
+  highlight: false
 - name: About
   link: /about/
   new_window: false

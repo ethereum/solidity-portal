@@ -36,3 +36,6 @@
   - name: github
     link: https://github.com/ethereum/solidity
     new_window: true
+  - name: forum
+    link: https://forum.soliditylang.org/
+    new_window: true
