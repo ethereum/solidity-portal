@@ -14,10 +14,6 @@
   link: https://forum.soliditylang.org/
   new_window: true
   highlight: false
-- name: About
-  link: /about/
-  new_window: false
-  highlight: false
 - name: Blog
   link: https://blog.soliditylang.org
   new_window: true
