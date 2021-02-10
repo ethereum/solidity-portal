@@ -186,7 +186,7 @@ let compile = () => {
     }));
 }
 
-editor.session.setMode("ace/mode/javascript");
+editor.session.setMode("ace/mode/solidity");
 editor.getSession().setUseWorker(false);
 editor.renderer.on('afterRender', compile);
 
