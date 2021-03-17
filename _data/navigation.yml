@@ -7,7 +7,7 @@
   new_window: true
   highlight: false
 - name: Chat
-  link: https://gitter.im/ethereum/solidity
+  link: https://matrix.to/#/#ethereum_solidity:gitter.im
   new_window: true
   highlight: false
 - name: Forum

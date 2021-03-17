@@ -2,11 +2,8 @@
   - name: releases
     link: https://github.com/ethereum/solidity/releases
     new_window: true
-  - name: documentation
-    link: https://docs.soliditylang.org/en/latest/
-    new_window: true
-  - name: tools & resources
-    link: https://docs.soliditylang.org/en/latest/resources.html
+  - name: bounty & responsible disclosure
+    link: https://bounty.ethereum.org/
     new_window: true
   - name: blog
     link: https://blog.soliditylang.org
@@ -14,14 +11,14 @@
   - name: about
     link: /about/
 - links:
+  - name: documentation
+    link: https://docs.soliditylang.org/en/latest/
+    new_window: true
   - name: contributing
     link: https://docs.soliditylang.org/en/latest/contributing.html
     new_window: true
-  - name: bounty & responsible disclosure
-    link: https://bounty.ethereum.org/
-    new_window: true
-  - name: mailing list
-    link: https://groups.google.com/g/solidity-users
+  - name: tools & resources
+    link: https://docs.soliditylang.org/en/latest/resources.html
     new_window: true
   - name: logo policy
     link: https://docs.soliditylang.org/en/latest/brand-guide.html
@@ -29,6 +26,9 @@
 - links:
   - name: twitter
     link: https://twitter.com/solidity_lang
+    new_window: true
+  - name: matrix
+    link: https://matrix.to/#/#ethereum_solidity:gitter.im
     new_window: true
   - name: gitter
     link: https://gitter.com/ethereum/solidity
