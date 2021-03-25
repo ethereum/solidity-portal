@@ -1,5 +1,5 @@
 - name: Install
-  link: https://github.com/ethereum/solidity/releases
+  link: https://docs.soliditylang.org/en/latest/installing-solidity.html
   new_window: true
   highlight: false
 - name: Docs
