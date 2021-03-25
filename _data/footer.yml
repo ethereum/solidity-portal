@@ -2,8 +2,8 @@
   - name: releases
     link: https://github.com/ethereum/solidity/releases
     new_window: true
-  - name: bounty & responsible disclosure
-    link: https://bounty.ethereum.org/
+  - name: security policy & bounty
+    link: https://github.com/ethereum/solidity/blob/develop/SECURITY.md
     new_window: true
   - name: blog
     link: https://blog.soliditylang.org
