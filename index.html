@@ -24,9 +24,10 @@ description: Solidity is a statically-typed curly-braces programming language de
 <section class="highlight-section-blue">
 	<div class="container flex">
 		<div class="text editable">
-			<h2><strong>Solidity v0.8.2 is out! 🎉</strong></h2>
-			<p>Solidity v0.8.2 adds an optimizer stage that can inline small amounts of code to save gas and provides more means to work with code documentation by exporting inline comments and allowing custom natspec tags.
-			<br><br>For all details please refer to the <a href="https://blog.soliditylang.org/2021/03/02/solidity-0.8.2-release-announcement/">announcement post</a> and check out the new release <a href="https://github.com/ethereum/solidity/releases/tag/v0.8.2">here</a>.</p>
+			<h2><strong>Solidity v0.8.3 is out! 🎉</strong></h2>
+			<p>Solidity 0.8.3 is a bugfix release that fixes an important bug about how the optimizer handles the Keccak256 opcode. Read more about the bug <a href="https://blog.soliditylang.org/2021/03/23/keccak-optimizer-bug/" >here</a>. In addition, there are 2 optimizer improvements included in this release, namely improving storage writes for small types and replacing
+				multiplications and divisions with powers of two by shifts. The former can provide a big gas benefit when writing structs that cover a full storage slot to storage. Solidity v0.8.3 also comes with a new SMTChecker tutorial in the <a href="https://docs.soliditylang.org/en/v0.8.3/smtchecker.html" >revamped SMTChecker docs</a>.
+			<br><br>For all details please refer to the <a href="https://blog.soliditylang.org/2021/03/23/solidity-0.8.3-release-announcement/">announcement post</a> and check out the new release <a href="https://github.com/ethereum/solidity/releases/tag/v0.8.3">here</a>.</p>
 		</div>
 	</div>
 </section>
