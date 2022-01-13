@@ -10,15 +10,6 @@
 
 		<link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css">
 		<link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon.png">
-
-		{% if jekyll.environment == 'production' and site.google_analytics_key != '' %}
-			<script>
-				window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-				ga('create', '{{ site.google_analytics_key }}', 'auto');
-				ga('send', 'pageview');
-			</script>
-			<script async src='https://www.google-analytics.com/analytics.js'></script>
-		{% endif %}
 	</head>
 	<body>
 		<header>
@@ -43,7 +34,7 @@
 					</ul>
 					{% endfor %}
 				</div>
-				<p class="copyright"> 2021 Solidity Team • <a href="https://github.com/ethereum/solidity/blob/develop/CODE_OF_CONDUCT.md">Code of Conduct</a> • Template by <a href="https://cloudcannon.com/">CloudCannon</a></p>
+				<p class="copyright"> 2022 Solidity Team • <a href="https://github.com/ethereum/solidity/blob/develop/CODE_OF_CONDUCT.md">Code of Conduct</a> • Template by <a href="https://cloudcannon.com/">CloudCannon</a></p>
 			</div>
 		</footer>
 		<script>
