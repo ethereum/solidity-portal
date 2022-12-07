@@ -43,17 +43,18 @@
 .highlight-section-blue{
 	background: #002fa7;
 	color: #ffffff;
-	text-align: right;
+	text-align: left;
 	margin: 0;
 	padding: 100px 0;
 
 	a {
 		color: #C4C4C4;
-		text-decoration: none;
+		text-decoration: underline;
 	}
 
 	a:hover {
 		text-decoration: underline;
+		color: #ffffff;
 	}
 
 	p {
