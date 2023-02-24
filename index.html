@@ -23,7 +23,8 @@ description: Solidity is a statically-typed curly-braces programming language de
 	<div class="container flex">
 		<div class="text editable">
 			<h2><strong>Solidity v0.8.19 is here.</strong></h2>
-			<p><a href="https://github.com/ethereum/solidity/releases/tag/v0.8.19">Solidity 0.8.19</a> includes the following notable features: allow defining custom operators for User-Defined Value Types, SMTChecker: New trusted mode that assumes that any compile-time available code is the actual used code, AST: Add ``function`` field to ``UnaryOperation`` and ``BinaryOperation`` AST nodes.
+			<p><a href="https://github.com/ethereum/solidity/releases/tag/v0.8.19">Solidity 0.8.19</a> includes a range of improvements. Most importantly, custom operators can now be defined for <a href="https://blog.soliditylang.org/2023/02/22/user-defined-operators/">user-defined value types</a>!
+				It also contains a fix for a long-standing bug that can result in code that is only used in creation code to also be included in runtime bytecode.
 			<br><br>For all details please refer to the <a href="https://blog.soliditylang.org/2023/02/22/solidity-0.8.19-release-announcement/">release announcement</a>. We have also included 6 bugfixes in this release!</p>
 		</div>
 	</div>
@@ -58,7 +59,7 @@ description: Solidity is a statically-typed curly-braces programming language de
 				<h2><strong>Stay always up-to-date by following the <a href="https://blog.soliditylang.org">Solidity blog</a> and the <a href="https://twitter.com/solidity_lang">Solidity Twitter</a>.</strong></h2>
 				<p>Recent news include:</p>
 				<ul>
-					<li><p>The Solidity Summit recap is here. Read the summary <a href="https://blog.soliditylang.org/2022/05/03/solidity-summit-2022-recap/">on the blog</a> or watch the <a href="https://www.youtube.com/playlist?list=PLX8x7Zj6Vezl1lqBgxiQH3TFbRNZza8Fk">playlist</a>.</li></p>
+					<li><p>Check out the latest <a href="https://blog.soliditylang.org/2022/12/05/solidity-core-team-updates/">Solidity Core Team Updates</a>.</li></p>
 					<li><p>The results of the Solidity Developer Survey 2021 are published! Read the <a href="https://blog.soliditylang.org/2022/02/07/solidity-developer-survey-2021-results/">full report</a> to learn more.</li></p>
 					<li><p>Solidity v0.8.0 is <a href="https://blog.soliditylang.org/2020/12/16/solidity-v0.8.0-release-announcement/" >out</a>, bringing you SafeMath by default! Check out <a href="https://docs.soliditylang.org/en/latest/080-breaking-changes.html#how-to-update-your-code">this guide</a> on how to best update your code.</li></p>
 					<li><p>Lastest from the blog: <a href="https://blog.soliditylang.org/2021/09/27/user-defined-value-types/">User Defined Value Types</a> and <a href="https://blog.soliditylang.org/2022/03/16/encodecall-bug/">abi.encodeCall Literals Bug</a>.</li></p>
