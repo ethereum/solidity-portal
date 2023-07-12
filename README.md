@@ -1,3 +1,5 @@
+## 🚨 This repository has been archived. Please visit the new home for the Solidity website codebase at [`ethereum/solidity-website`](https://github.com/ethereum/solidity-website)
+
 # Solidity Language Portal
 
 The Solidity Language Portal is based on the [Hydra template](https://learn.cloudcannon.com/templates/hydra/) for Jekyll.
